@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolás Fortunato | Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Devicon para logos de tecnologías -->
+    <link rel="stylesheet" type='text/css' href='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' />
+</head>
+<body>
+
+    <!-- Encabezado y Navegación -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">nico<span style="color: var(--accent);">fortu</span></a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn-toggle" aria-label="Cambiar tema de color">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Presentación / Hero Section -->
+    <main>
+        <section id="sobre-mi" class="hero-section">
+            <div class="hero-content">
+                <div class="avatar-container">
+                    <img src="foto vestuario.jpeg" alt="Foto de perfil de Nicolás Fortunato" class="avatar">
+                </div>
+                <div class="hero-text">
+                    <span class="badge">Tecnicatura en Programación - EEST Nº2</span>
+                    <h1>Hola, soy <span>Nicolás Fortunato</span></h1>
+                    <p class="subtitle">Desarrollador Web (18 años) enfocado en crear experiencias digitales funcionales, limpias y eficientes. Apasionado por resolver problemas mediante código, optimizar procesos y cuidar los detalles en el desarrollo.</p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tecnologías con Logos Profesionales -->
+        <section id="tecnologias" class="section">
+            <h2 class="section-title">Tecnologías y Herramientas</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-card">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-card">
+                    <i class="devicon-php-plain colored"></i>
+                    <span>PHP</span>
+                </div>
+                <div class="tech-card">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="tech-card">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>Git & GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section id="proyectos" class="section">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto Principal Integrador -->
+                <article class="project-card featured">
+                    <div class="project-badge">Proyecto Integrador / Grupal</div>
+                    <h3>Fichero Digital AMEMT</h3>
+                    <p class="project-description">
+                        Sistema web de gestión integral de personal y control de asistencias desarrollado para la institución AMEMT. Incluye registro biométrico/digital en tiempo real, validación de IP, panel de control con roles y permisos, y generación automática de reportes en PDF.
+                    </p>
+                    <ul class="project-tags">
+                        <li>PHP Nativo</li>
+                        <li>MySQL (PDO)</li>
+                        <li>JavaScript</li>
+                        <li>CSS3</li>
+                        <li>Reportes PDF</li>
+                    </ul>
+                </article>
+
+                <!-- Proyecto 2: Portfolio Web -->
+                <article class="project-card">
+                    <h3>Mi Portfolio Web Profesional</h3>
+                    <p class="project-description">
+                        Sitio web responsivo y accesible para presentación profesional y puesta en producción en GitHub Pages, desarrollado con HTML5 semántico, CSS3 adaptable y alternador de temas con JavaScript.
+                    </p>
+                    <ul class="project-tags">
+                        <li>HTML5</li>
+                        <li>CSS3 (Flexbox/Grid)</li>
+                        <li>JavaScript</li>
+                        <li>GitHub Pages</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="section contact-section">
+            <h2 class="section-title">Contacto</h2>
+            <p>¿Tienes alguna consulta o propuesta de desarrollo? ¡Hablemos!</p>
+            <div class="contact-links">
+                <a href="mailto:nicolasfortunato2007@gmail.com" class="btn btn-primary">Enviar Correo</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Perfil de GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Nicolás Fortunato</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
